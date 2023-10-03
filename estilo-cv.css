@@ -1,0 +1,93 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  margin: 0 auto;
+}
+body:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  color: #333;
+}
+
+.photo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo img {
+  width: 200px; /* Ajusta el ancho deseado */
+  height: 200px; /* Ajusta la altura deseada */
+  border-radius: 50%; /* Hace que la imagen sea redonda */
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.459);
+  border: 5px solid #0b19276b;
+}
+.photo img:hover {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.57);
+  transform: scale(1.1);
+}
+.contact {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: 2s all;
+}
+.contact:hover {
+  box-shadow: 0px 0px 50px rgba(17, 255, 0, 0.371);
+}
+.contact h2 {
+  color: #333;
+}
+
+.contact p {
+  color: #777;
+}
+
+.about {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.about h2 {
+  color: #333;
+}
+
+.education {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.education h2 {
+  color: #333;
+}
+
+.courses {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.courses h2 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #0073e6;
+}
+@media (max-width: 600px) {
+  /* Estilos para pantallas más pequeñas (ejemplo: teléfonos) */
+  .photo img {
+    width: 150px; /* Ajusta el ancho para pantallas pequeñas */
+    height: 150px; /* Ajusta la altura para pantallas pequeñas */
+  }
+}
